@@ -1,5 +1,4 @@
 % Modélisation Sudoku.
-% http://www.samurai-sudoku.com/
 
 % Librairie pour la définition du prédicat alldifferent
 include "alldifferent.mzn";
