@@ -1,5 +1,4 @@
 % Modélisation Sudoku.
-% http://codegolf.stackexchange.com/questions/10534/build-a-killer-sudoku-solver
 
 % Librairie pour la définition du prédicat alldifferent
 include "alldifferent.mzn";
