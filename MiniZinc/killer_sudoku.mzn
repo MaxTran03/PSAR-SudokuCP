@@ -87,6 +87,6 @@ output [if j = 1 then "\n" else " " endif ++
 
 
 % > time mzn-g12fd killer_sudoku.mzn
-% real: 0m3.191s
+% real: 0m0.81s
 % user: 0m0.020s
 % sys:  0m0.000s
