@@ -87,7 +87,8 @@ constraint forall (ligne, colonne in {1, 4, 7, 10, 13, 16, 19})
 solve satisfy;
 
 % Affichage
-% Pas réussi à faire un meilleur affichage: Les cases vides sont affichées avec des 1: rectangles 3x6 ou 6x3 de 1 correspondent à vide.
+% Pas réussi à faire un meilleur affichage...
+% Les cases vides sont affichées avec des 1: rectangles 3x6 ou 6x3 de 1 correspondent à vide.
 output [if j = 1 then "\n" else " " endif ++
     show(puzzle[i,j]) | i,j in taille] ++ ["\n"];
 
