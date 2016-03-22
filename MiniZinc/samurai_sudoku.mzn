@@ -44,7 +44,8 @@ grille =
 array[taille,taille] of var domaine: puzzle;
  
 
-% copie grille dans un tableau de variables
+% copie grille dans un tableau de variables si la valeur est supérieur à 0 et inférieur à 10
+% Dans notre cas, 10 correspond à vide
 constraint forall(i,j in taille)(
     if grille[i,j] > 0 /\ grille[i,j] < 10 then puzzle[i,j] = grille[i,j] else true endif );
 
