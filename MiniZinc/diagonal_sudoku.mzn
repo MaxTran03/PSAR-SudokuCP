@@ -54,6 +54,7 @@ constraint forall (colonne in domaine)
 constraint forall (ligne, colonne in {1, 4, 7})
 	   (region_diff(ligne, colonne)); 
 
+% Contraintes sur les diagonales montante et descendante
 constraint (alldifferent ([ puzzle[ligne, ligne] | ligne in domaine]));
 constraint (alldifferent ([ puzzle[10-ligne, ligne] | ligne in domaine]));
 
